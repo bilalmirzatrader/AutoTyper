@@ -1,0 +1,3 @@
+@echo off
+echo Starting Auto Type Windows...
+start "" "%~dp0dist\AutoType-Windows.exe"

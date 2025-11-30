@@ -1,0 +1,11 @@
+# Core dependencies
+pyautogui>=0.9.54
+customtkinter>=5.2.0
+pillow>=9.0.0
+requests>=2.28.0
+
+# Windows-specific dependencies
+pywin32>=305; platform_system=="Windows"
+
+# Build dependencies
+pyinstaller>=5.13.0
