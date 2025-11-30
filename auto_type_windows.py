@@ -101,7 +101,7 @@ def is_admin():
         
 def validate_password(password):
     """Validates the password against the one stored in the pastebin URL"""
-    url = "https://pastebin.com/raw/eKiZCNbX"
+    url = "https://raw.githubusercontent.com/bilalmirzatrader/AutoTyper/refs/heads/main/pass.json"
     
     try:
         # Try to fetch the password from Pastebin with a timeout
